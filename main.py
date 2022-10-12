@@ -103,7 +103,7 @@ def handle(event):
         text = "!help                     |取得幫助\n!intro                    |介紹\n!comment {YT影片網址或ID} |影片評價\n!check   {一段文字}       |此文情緒\n輸入指令時，記得把\"{}\"去掉"
         bot.reply_message(event.reply_token, TextSendMessage(text=text))
     elif msg == "!intro":
-        text = "MoodBot 使用新浪微博之 weibo_senti_100k 資料庫，廣泛蒐集了正負向評論約各 5 萬條，並且搭載了 Multinomial Naive Bayes 機率模型做作為機器學習演算法，是一種監督式的分類演算法，對文字具有不錯的準確度（雖然說這隻得準確率 accuracy 只來到了 70%）。
+        text = "MoodBot 使用新浪微博之 weibo_senti_100k 資料庫，廣泛蒐集了正負向評論約各 5 萬條，並且搭載了 Multinomial Naive Bayes 機率模型做作為機器學習演算法，是一種監督式的分類演算法，對文字具有不錯的準確度（雖然說這隻得準確率 accuracy 只來到了 70%）。"
         bot.reply_message(event.reply_token, TextSendMessage(text=text))
     else:
         text = "輸入 !help 來取得幫助"
