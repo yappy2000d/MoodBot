@@ -84,11 +84,7 @@ def handle(event):
         like = statistics.get("likeCount", 0)
         dislike = statistics.get("dislikeCount", 0)
 
-        text = "由：{}\n標題：\n{}\n上傳於：{}\n觀看次數:{}\n喜歡：{}  不喜歡：{}\n負面評價：{}則，{:.2f}%\n正面評價：{}則，{:.2f}%".format(
-            channel, name,
-            upload_time.split("T")[0], view, like, dislike, resault[0],
-            resault[0] / len(cmts) * 100, resault[1],
-            resault[1] / len(cmts) * 100)
+        text = f"由：{channel}\n標題：\n{name}\n上傳於：{upload_time.split("T")[0]}\n觀看次數:{view}\n喜歡：{like}  不喜歡：{dislike}\n負面評價：{resault[0]}則，{resault[0] / len(cmts) * 100, resault[1]:.2f}%\n正面評價：{resault[1] / len(cmts) * 100}則，{:.2f}%"
         bot.reply_message(event.reply_token, TextSendMessage(text=text))
 
     elif msg.startswith("!check"):
