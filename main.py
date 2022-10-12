@@ -71,8 +71,6 @@ def handle(event):
                 resault[0] += 1
             elif pre[0] == np.int64(1):
                 resault[1] += 1
-            else:
-                raise
 
         info = video(id)["items"][0]
         snippet = info["snippet"]
