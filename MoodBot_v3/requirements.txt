@@ -1,0 +1,7 @@
+flask==3.0.3
+line-bot-sdk==3.11.0
+numpy==2.0.1
+requests==2.31.0
+scikit-learn==1.5.1
+jieba==0.42.1
+joblib==1.4.2
