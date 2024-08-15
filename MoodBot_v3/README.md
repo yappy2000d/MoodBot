@@ -20,4 +20,4 @@
 
 ![help](imgs/help.png)
 
-![review](README.assets/review.png)
+![review](imgs/review.png)
