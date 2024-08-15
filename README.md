@@ -13,13 +13,10 @@
 
 ## Screenshots
 
-Original
+![intro](MoodBot_v3/imgs/intro.png)
 
-![intro](MoodBot/imgs/intro.png)
 
-New
-
-![intro](MoodBot_v3/imgs/help.png)
+![review](MoodBot_v3/imgs/review.png)
 
 ## Tech Stack
 
