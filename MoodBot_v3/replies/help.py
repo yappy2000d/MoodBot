@@ -7,7 +7,7 @@ from linebot.v3.messaging.models import (
 
 
 def help_msg() -> FlexMessage:
-    """自我介紹"""
+    """指令幫助"""
     return FlexMessage.from_dict({
         "type": "flex",
         "altText": "Help",
@@ -182,5 +182,45 @@ def help_msg() -> FlexMessage:
                     }
                 ]
             }
+        },
+        "quickReply": {
+            "items": [
+                {
+                    "type": "action",
+                    "action": {
+                        "type": "message",
+                        "label": "指令幫助",
+                        "text": "!help"
+                    }
+                },
+                {
+                    "type": "action",
+                    "action": {
+                        "type": "message",
+                        "label": "機器人介紹",
+                        "text": "!intro"
+                    }
+                },
+                {
+                    "type": "action",
+                    "action": {
+                        "type": "postback",
+                        "label": "留言評價",
+                        "data": "0",
+                        "inputOption": "openKeyboard",
+                        "fillInText": "!review "
+                    }
+                },
+                {
+                    "type": "action",
+                    "action": {
+                        "type": "postback",
+                        "label": "文字情緒",
+                        "data": "1",
+                        "inputOption": "openKeyboard",
+                        "fillInText": "!check "
+                    }
+                }
+            ]
         }
     })
