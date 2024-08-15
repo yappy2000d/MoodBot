@@ -1,6 +1,6 @@
 # MoodBot
 
-一個LINE機器人，高中二年級時的自主學習計畫。
+一個基於Naive Bayes classifier的文字情緒辨識LINE機器人，高中二年級時的自主學習計畫。
 
 
 
