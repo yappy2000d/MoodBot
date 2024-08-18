@@ -53,7 +53,7 @@ scikit-learn==1.2.2
 
 #### v3
 
-Python: 3.12.1
+Python: 3.12.1、3.11.9
 
 ```
 flask==3.0.3
@@ -65,3 +65,21 @@ requests==2.31.0
 scikit-learn==1.5.1
 ```
 
+## Deploy
+### LINE Setting
+1. Go to [LINE Developers](https://developers.line.biz/)
+2. Create a new "Provider" or click an existing provider
+3. In the "Channels" tab, create a new channel with "Messaging API" type
+4. Fill in the relevant information
+
+Now you can find your Channel secret in the "Basic settings" tab.
+
+In the 'Messaging API' tab, you will find the 'Bot Basic ID' for adding your bot friend later. Then scroll down, modify the 'Webhook URL,' and check the 'Use webhook' option. At the page bottom, issue a 'Channel access token.'  
+
+Last of all, disable "Auto Response" at [LINE Official Account Manager](https://manager.line.biz/).
+
+### YouTube Data API v3
+Omit
+
+### Webhook Server
+Showcase with cPanel: [Chinese](deploy_on_cpanel.md)
