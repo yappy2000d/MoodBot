@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a2 as o}from"./chunks/framework.C94oF1kp.js";const p=JSON.parse('{"title":"自訂訊息","description":"","frontmatter":{},"headers":[],"relativePath":"zh/line/msg.md","filePath":"zh/line/msg.md"}'),r={name:"zh/line/msg.md"},s=o("",3),n=[s];function i(_,c,h,l,d,m){return t(),e("div",null,n)}const u=a(r,[["render",i]]);export{p as __pageData,u as default};
