@@ -4,24 +4,29 @@ layout: home
 
 hero:
   name: "MoodBot"
-  text: "A LINE bot that analyzes YouTube video comments"
-  tagline: "Hands-on LINE Bot Development"
+  text: "分析 YouTube 影片留言反饋的 LINE 機器人"
+  tagline: "LINE Bot 實戰演練"
   actions:
     - theme: brand
-      text: "Get Started"
+      text: "立即開始"
       link: /setup
     - theme: alt
-      text: Source Code
+      text: 查看原始碼
       link: https://github.com/yappy2000d/MoodBot/tree/main/MoodBot_v3
 
 features:
-  - title: LINE User Interface
-    details: Uses LINE as the user interface
-  - title: Text Sentiment Analysis
-    details: Employs machine learning to recognize text sentiment
-  - title: Comment Analysis
-    details: A crawler to fetch YouTube video data and comment information
+  - title: LINE 使用者介面
+    details: 以 LINE 作為使用者介面
+  - title: 文字情緒判斷
+    details: 使用機器學習辨識文字情緒
+  - title: 影片留言分析
+    details: 製作 YouTube 爬蟲來獲取影片資料及留言資訊
 ---
 
-## Background
-During high school, I integrated a text sentiment analysis model with a LINE interface as part of a self-directed learning project, focusing mainly on writing the report. Recently, I noticed that LINE updated its development kit, so while upgrading, I also took the opportunity to enhance the interface design. I’ve shared the results online for others to reference.
+## 學習歷程剋星
+你還在想自主學習要做什麼嗎？跟著我使用一個周末，掌握LINE機器人與AI技術，隔週用精美的成品嚇死班導與組員。
+
+## 成立背景
+早期為了應付高中的自主學習，用手邊已經做好的AI套上LINE的外皮，成功水了一個學期。
+
+現在全新製作的版本足以美瞎師長的雙眼！痾，如果你跟我一樣讀工科的話啦～
